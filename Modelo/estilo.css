@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(41, 41, 41);
+    color: blanchedalmond;
+}
+
+section{
+    background: rgb(73,73,73);
+    color: blanchedalmond;
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+}
+header{
+    color: blanchedalmond;
+    text-align: center;
+}
+footer{
+    color: blanchedalmond;
+    text-align: center;
+}
