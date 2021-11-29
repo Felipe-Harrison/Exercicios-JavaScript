@@ -8,19 +8,24 @@
     <style>
 
     </style>
-    <title>Exercicio 000</title>
+    <title>Exercicio 004</title>
 </head>
 <body>
     <header>
-        <h1>Titulo</h1>
+        <h1>Tabuada Multiplicação</h1>
     </header>
+    <p>
+        Digite um número para ver sua tabuada
+    </p>
     <section>
-        Testando
-        <div>
-
+        <div id ="form">
+            <p>
+            Numero: <input type="number" name="number" id="number" placeholder="Digite um número" required>
+            <input type="button" value="Gerar Tabuada" onclick="gera_tabuada()">
+            </p>
         </div>
-        <div>
-
+        <div id ="resposta">
+            <select name="Tabuada" id="tabuada"></select>
         </div>
     </section>
     <footer>

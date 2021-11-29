@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(41, 41, 41);
+    color: blanchedalmond;
+}
+
+section{
+    font: 1rem 'Fira Sans', sans-serif;
+    background: rgb(73,73,73);
+    color: blanchedalmond;
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+}
+header{
+    color: blanchedalmond;
+    text-align: center;
+}
+footer{
+    color: blanchedalmond;
+    text-align: center;
+    font-style: italic;
+}
+
+/* CSS no Formulário */
+
+label{
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+button{
+    background: rgb(255, 255, 255);
+    border-style: hidden;
+    border-radius: 5px;
+    padding: 5px;
+    font: 1rem 'Fira Sans', sans-serif;
+    font-size: small;
+    border: 2px solid gray;
+
+    transition-duration: 500ms;
+}
+button:hover{
+    background: rgb(180, 180, 180);
+    color: black;
+}
+
+input[type=number] {
+    border-radius: 5px;
+    -moz-appearance: textfield;
+  }
+
+input[type=number]:out-of-range{
+    border-color: rgb(250, 17, 64);
+}

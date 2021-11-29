@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+
+    </style>
+    <title>Exercicio 002</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        Preencha o Formulário
+        <div>
+            <p style="text-align: left;">
+                Ano de Nascimento:
+                <input type="number" name="year" id="form_year" min = 1 max = 2021>
+            </p>
+            <p style="text-align: left;">
+                Sexo:
+                <input type="radio" name="sex" id="masc" checked>
+                <label for="sex">Masculino</label>
+                <input type="radio" name="sex" id="fem" >
+                <label for="sex">Feminino</label>
+            </p>
+            <p>
+                <button onclick="get_result()">Verificar</button>
+            </p>
+        </div>
+        <div id = "result">
+
+        </div>
+    </section>
+    <footer>
+        <p>Felipe Harrison</p>      
+    </footer>
+    <script src="javascript.js"></script>
+</body>
+</html>

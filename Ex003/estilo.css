@@ -1,33 +1,35 @@
 body {
-    /*Background*/
     background-color: rgb(41, 41, 41);
-    /*Text*/
     color: blanchedalmond;
-    text-align: center;
 }
 
 section{
-    /*Background*/
     background: rgb(73,73,73);
-    /*Shape*/
+    color: blanchedalmond;
     border-radius: 15px;
     padding: 15px;
     margin: auto;
     width: 400px;
-    /*Text*/
-    color: blanchedalmond;
     text-align: center;
-    /*Effect*/
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
 }
 header{
-    /*Text*/
     color: blanchedalmond;
     text-align: center;
 }
 footer{
-    /*Text*/
     color: blanchedalmond;
     text-align: center;
-    font-style: italic;
+}
+
+div[id = form]{
+    text-align: left;
+}
+
+input[type = number]{
+    border-radius: 5px;
+}   
+
+p[id = "button"]{
+    text-align: center;
 }

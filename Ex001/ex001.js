@@ -6,7 +6,7 @@ function carrega_website(){
     // Pegar a Hora do Usuario
     let today = new Date()
     var hora =  today.getHours()
-    //var hora = 20
+    //var hora = 13
 
     // Fazer as alterações
     msg.innerHTML = `<p>Agora são ${hora} horas</p>`
