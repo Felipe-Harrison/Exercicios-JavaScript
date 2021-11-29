@@ -1,6 +1,6 @@
 function gera_tabuada(){
 
-    let number = document.querySelector("input#number")
+    let number = document.getElementById("number")
     
     /*if(number.value == ''){
 
