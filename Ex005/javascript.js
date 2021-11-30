@@ -20,14 +20,11 @@ function add_lista(){
 
     // verificar se ja foi adicionado
 
-    for(i in valores){
-        if(number_int == valores[i]){
-            alert("Número já adicionado!")
-            return -1
-        }
+    if(valores.indexOf(number_int) != -1){
+        alert("Número já adicionado!")
+        return -1
     }
-
-
+       
     // Limpar o que ja tinha
     resposta.innerHTML = ''
 
@@ -37,6 +34,9 @@ function add_lista(){
 
     valores.push(number_int)
 
+    // Depois que adicionar limpar o campo
+    number.value = ''
+    number.focus()
 }
 
 function faz_analise(){
