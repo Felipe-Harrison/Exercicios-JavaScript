@@ -1,0 +1,85 @@
+body {
+    /*Background*/
+    background-color: rgb(41, 41, 41);
+    /*Text*/
+    color: blanchedalmond;
+    text-align: center;
+}
+
+section{
+    /*Background*/
+    background: rgb(73,73,73);
+    /*Shape*/
+    border-radius: 15px;
+    padding: 15px;
+    margin: auto;
+    width: 400px;
+    /*Text*/
+    color: blanchedalmond;
+    text-align: center;
+    /*Effect*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.281);
+}
+header{
+    /*Text*/
+    color: blanchedalmond;
+    text-align: center;
+}
+
+footer{
+    /*Text*/
+    color: blanchedalmond;
+    text-align: center;
+    font-style: italic;
+}
+
+div[id = resposta]{
+    /*Color*/
+    background-color: rgb(68, 136, 0);
+    color: black;
+    /*Shape*/
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    /*Text*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+}
+
+button[id = operations]{
+    /*Color*/
+    background-color: red;
+    /*Shape*/
+    width: 95px;
+    /*Text*/
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+button[id = operations]:hover{
+    background-color: rgb(163, 0, 0);
+}
+
+
+button[id = enter]{
+    /*Color*/
+    background-color: blue;
+    /*Shape*/
+    width: 95px;
+}
+button[id = enter]:hover{
+    background-color: rgb(0, 0, 216);
+}
+
+button{
+     /*Text*/
+    font-size: 20px;
+    font-family: fantasy;
+}
+table, th, button {
+    /*Shape*/
+    border: 1px solid black;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
