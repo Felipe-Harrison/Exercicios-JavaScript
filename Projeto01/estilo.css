@@ -46,6 +46,34 @@ div[id = resposta]{
     text-align: center; 
 }
 
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*Quebra de linha*/
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+#enter_button{
+    flex-grow: 3;
+    flex-basis: auto;
+    align-self:flex-end;
+    height: 75px;
+}
+
+button{
+    /*Text*/
+   font-size: 20px;
+   font-family: fantasy;
+
+   border: 1px solid black;
+   width: 25%;
+   height: 25%;
+   border-radius: 5px;
+}
+
+
 button[id = operations]{
     /*Color*/
     background-color: red;
@@ -71,15 +99,4 @@ button[id = enter]:hover{
     background-color: rgb(0, 0, 216);
 }
 
-button{
-     /*Text*/
-    font-size: 20px;
-    font-family: fantasy;
-}
-table, th, button {
-    /*Shape*/
-    border: 1px solid black;
-    width: 100%;
-    height: 50px;
-    border-radius: 5px;
-}
+

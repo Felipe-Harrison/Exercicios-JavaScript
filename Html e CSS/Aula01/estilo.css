@@ -1,0 +1,28 @@
+body{
+    background-image: url("../Imagens/wallpaper003.jpg");
+}
+
+.quadrado{
+
+    display: inline-block;
+    border-radius: 5px;
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+
+
+}
+
+#div1{
+    background-color: black;
+}
+
+#div2{
+    background-image:linear-gradient(to bottom, green,blue);
+}
+
+#div3{
+    background-image: url("../Imagens/pattern001.png");
+    background-repeat: no-repeat; /*Define se a imagem sera repetido*/
+
+}
