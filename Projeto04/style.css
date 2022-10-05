@@ -1,0 +1,107 @@
+:root {
+    --primaryColor: #f00;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(27, 27, 27);
+    background-image: url("./songs/NEON BLADE/image.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+
+main{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 40%;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 70px 5px black;
+    text-align: center;
+    padding: 3%;
+
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+}
+
+img{
+    box-shadow: 0px 0px 6px #000000;
+    min-width: 192px; 
+    min-height: 192px;
+    transition-duration: 500ms;
+}
+img.play{
+    box-shadow: 0px 0px 70px var(--primaryColor);
+}
+
+.songtitle{
+    width: 60%;
+    margin: 3% auto;
+    overflow-x: hidden;
+    transition-duration: 500ms;
+    cursor: default;
+}
+.songtitle.play, button.play{
+    color: var(--primaryColor);
+    text-shadow: 0px 0px 5px var(--primaryColor);
+    fill-opacity: 0.7;
+}
+
+.musicControl{
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    font-size: 14vh;
+    width: 15%;
+}
+
+button{
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+button:hover, .songtitle:hover{
+    color: var(--primaryColor);
+    text-shadow: 0px 0px 15px var(--primaryColor);
+}
+
+#btn-prev, #btn-next{
+    font-size: 5vh;
+}
+
+
+@media all and (width <= 768px) or (height <= 768px){
+    .musicControl, .songtitle{
+        width: 100%;
+    }
+    main{
+        width: 60%;
+    }
+    button{
+        font-size: 13vh;
+    }
+}
+
+@media all and (width <= 600px) {
+    .musicControl, .songtitle{
+        width: 100%;
+    }
+    button{
+        font-size: 7vh;
+    }
+    #btn-prev, #btn-next{
+        font-size: 4vh;
+    }
+    main{
+        width: 80%;
+    }
+}
